@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Toll Information | NHTIS</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <!-- Include All CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/settings.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" type="text/css" href="css/select2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/preset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" id="layout" href="css/lay_colors/wide.css"/>
+    <link rel="stylesheet" id="colorChem" href="css/lay_colors/color1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ticker.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/breakingNews.css"/>
+    <link rel="stylesheet" type="text/css" href="css/homepage-style.css"/>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/ticker.js"></script>
+    <script src="js/breakingNews.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- End Include All CSS -->
+    <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    <!-- Favicon Icon -->
+    <link rel="icon"  type="image/png" href="images/favicon.png"/>
+    <!-- Favicon Icon -->
+    <script type="text/javascript">
+      function getID(a)
+      {
+      document.getElementById("showid").innerHTML = a;
+      }
+    </script>
+    </head>
+    <body>
+        <div class="preloader">
+            <img src="images/preloader.gif" alt="">
+        </div>
+        <div class="overlay">
+            <section class="headerTopbar">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <p class="headTOpinfo">
+                                            <font color="#FFFFFF"><a href="grievance.aspx">Public Grievances</a>&nbsp;&bull;&nbsp;<a href="contact.aspx">Feedback</a>&nbsp;&bull;&nbsp;<a href="disclaimer.aspx">Disclaimer</a>&nbsp;&bull;&nbsp;<a href="login.aspx">Login</a>&nbsp;</font>
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12 text-right resMobcenter">
+                                        <div class="rightheaderlink">
+                                            <!--<a href="http://nhtis.org/nhai/" target="_blank">Go to Old Website</a>-->
+                                            <a href="#mainbody">Skip to Main Content</a>
+                                            <a href="screenreaderaccess.aspx">Screen Reader Access</a>
+                                        </div>
+                                      <div class="language">
+                                        <a class="currentFlg" href="#">
+                                            <img src="images/icon/english.png" alt="">
+                                              English
+                                            <i class="fa fa-caret-down"></i>
+                                          </a>
+                                        <ul class="flagList">
+                                          <li id="english">
+                                            <a href="?language=en">
+                                              <img alt="" src="images/icon/english.png">English</a>
+                                          </li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--header top bar End-->
+            <!--Header middle start-->
+            <header class="header headerTwo">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-2 noPaddingRight col-xs-12">
+                    <div class="logoh2">
+                          <a href="index.aspx?language=en"><img src="images/logo.png" 
+
+            alt=""></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-10 col-xs-12 text-right">
+                    <nav class="mainnav2">
+                      <div class="mobileMenu2 hidden-lg hidden-sm hidden-md">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                          <ul>
+                                                <li class=""><a href="index.aspx?
+
+            language=en">Home</a>
+                                                    <!-- Enter Dropdown b/w <ul>...</ul> -->
+                                                </li>
+                                                <li class=""><a href="about.aspx?
+
+            language=en">About Us</a>
+                                                </li>
+                                                <li class="has-menu-items"><a href="#">Toll 
+
+            Plazas</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="tollplazasonmap.aspx?
+
+            language=en">On Map</a></li>
+                                                        <li><a 
+
+            href="tollplazasataglance.aspx?language=en">At a Glance</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="has-menu-items"><a href="#">User 
+
+            Resources</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="NHAI User Manual.pdf" 
+
+            target="_blank">User Manual</a></li>
+                                                        <li><a 
+
+            href="miscellaneousinfo.aspx?language=en" target="_blank">NH Fee Rules</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="faq.aspx?language=en">FAQs</a></li>
+                                                <li><a href="contact.aspx?language=en">Contact 
+
+            Us</a></li>
+                                            </ul>
+                      </nav>
+                      </div>
+                </div>
+              </div>
+            </header>
+            <!--Header middle End-->
+            </div>
+            <!--Header End-->
+            <!--Header End-->
+            <!--Breadcrump start-->
+            <section class="container">
+                <div class="breadcrumbSec">
+                    <div class="row">
+                        <div class="col-lg-12 text-left">
+                            <div class="breadCont">
+                                <h3 class="brTitle">Toll Plaza Information</h3>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Breadcrump End-->
+            <!--Blog details start-->
+            <section class="blogDetailsDec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="blogRightsidebar">
+                                <div class="singleBlogDetails">
+                                    <div class="sblogDec">
+                                        <h2 class="blogTitle">
+                                            <a href="#">Toll Plaza Information</a>
+                                        </h2>
+                                        <font face="Lato">
+                                         <div id="DivContaint" class="content">
+                                         </div>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Blog details End-->
+            <!--Team member start-->
+            <section class="gov-icons">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="singleClient">
+                                    <a href="http://www.morth.nic.in" target="_blank">
+                                        <img src="images/client/4.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+ <div class="col-md-3 col-sm-6 col-xs-12  ">
+                                <div class="singleClient">
+                                    <a href="http://www.nhai.gov.in/" target="_blank">
+                                        <img src="images/client/6.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+
+ <div class="col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="singleClient">
+                                    <a href="http://www.ihmcl.com" target="_blank">
+                                        <img src="images/client/5.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+ <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="singleClient">
+                                    <a href="http://www.irc.nic.in" target="_blank">
+                                        <img src="images/client/3.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--Team member End-->
+            <!--Footer Start-->
+            <!--Copy Right start-->
+           <section class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                      <div class=socialiconslist> <a href="#" class="fb"><i class="fa fa-facebook"></i></a>
+                                <a href="#"  class="tw"><i class="fa fa-twitter"></i></a>
+                                <a href="#"  class="gp"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"  class="pt"><i class="fa fa-pinterest-p"></i></a></div>
+                        </div>
+                        <div class="col-md-8 col-xs-17 text-right">
+                            <p>Conceptualized and supported by NHAI, Developed and  Designed  by <a href="http://comvision.co.in" target="_blank">Comvision India Pvt. Ltd.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>       
+        <!--Copy Right End-->
+        <!--Copy Right End-->
+        <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>
+        <!-- Include All JS -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/mixer.js"></script>
+        <script type="text/javascript" src="js/select2.full.js"></script>
+        <script type="text/javascript" src="js/theme.js" ></script>
+    </body>
+</html>
